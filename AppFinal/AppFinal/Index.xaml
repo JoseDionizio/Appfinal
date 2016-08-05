@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFinal.Index">
+  
+  <StackLayout Padding="10" Spacing="10">
+    <Entry x:Name="SalarioBruto" Placeholder="valor bruto" Keyboard="Numeric" ></Entry>
+    <Button Text="Pos-Graduado" x:Name="Btngraducao" FontSize="8"></Button>
+    <Button Text="Mestrado" x:Name="Btnmestrado" FontSize="8"></Button>
+    <Button Text="Doutorado" x:Name="Btndoutorado" FontSize="8"></Button>
+
+    <Label Text="Salrio Liquido: "></Label><Label x:Name="SalarioL"></Label>
+
+   
+    <Button Text="Relatorio" x:Name="BtnRelatorio" FontSize="8"></Button>
+         
+  </StackLayout>
+  
+</ContentPage>
